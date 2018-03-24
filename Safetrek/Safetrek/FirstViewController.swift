@@ -47,7 +47,6 @@ class FirstViewController: UIViewController {
     
     @IBAction func checkDeviceRotation(_ sender: UIButton) {
         // Helper function to update the screen.  No edits needed.
-//        print("in device rotation")
         xLabel.text = "X = " + String(xDir)
         yLabel.text = "Y = " + String(yDir)
         zLabel.text = "Z = " + String(zDir)
