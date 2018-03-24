@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87B34CE92066C80200CB5CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34CE82066C80200CB5CB9 /* AppDelegate.swift */; };
+		87B34CF02066C80200CB5CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B34CEE2066C80200CB5CB9 /* Main.storyboard */; };
+		87B34CF22066C80200CB5CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B34CF12066C80200CB5CB9 /* Assets.xcassets */; };
+		87B34CF52066C80200CB5CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B34CF32066C80200CB5CB9 /* LaunchScreen.storyboard */; };
+		87B34D002066C80300CB5CB9 /* SafetrekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34CFF2066C80300CB5CB9 /* SafetrekTests.swift */; };
+		87B34D0B2066C80300CB5CB9 /* SafetrekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34D0A2066C80300CB5CB9 /* SafetrekUITests.swift */; };
+		87B34D192066D8C100CB5CB9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34D182066D8C100CB5CB9 /* FirstViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87B34CFC2066C80300CB5CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B34CDD2066C80200CB5CB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87B34CE42066C80200CB5CB9;
+			remoteInfo = Safetrek;
+		};
+		87B34D072066C80300CB5CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B34CDD2066C80200CB5CB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87B34CE42066C80200CB5CB9;
+			remoteInfo = Safetrek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87B34CE52066C80200CB5CB9 /* Safetrek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Safetrek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B34CE82066C80200CB5CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87B34CEF2066C80200CB5CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87B34CF12066C80200CB5CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87B34CF42066C80200CB5CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87B34CF62066C80200CB5CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B34CFB2066C80300CB5CB9 /* SafetrekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafetrekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B34CFF2066C80300CB5CB9 /* SafetrekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetrekTests.swift; sourceTree = "<group>"; };
+		87B34D012066C80300CB5CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B34D062066C80300CB5CB9 /* SafetrekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafetrekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B34D0A2066C80300CB5CB9 /* SafetrekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetrekUITests.swift; sourceTree = "<group>"; };
+		87B34D0C2066C80300CB5CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B34D182066D8C100CB5CB9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B34CE22066C80200CB5CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B34CF82066C80300CB5CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B34D032066C80300CB5CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87B34CDC2066C80200CB5CB9 = {
+			isa = PBXGroup;
+			children = (
+				87B34CE72066C80200CB5CB9 /* Safetrek */,
+				87B34CFE2066C80300CB5CB9 /* SafetrekTests */,
+				87B34D092066C80300CB5CB9 /* SafetrekUITests */,
+				87B34CE62066C80200CB5CB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87B34CE62066C80200CB5CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B34CE52066C80200CB5CB9 /* Safetrek.app */,
+				87B34CFB2066C80300CB5CB9 /* SafetrekTests.xctest */,
+				87B34D062066C80300CB5CB9 /* SafetrekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B34CE72066C80200CB5CB9 /* Safetrek */ = {
+			isa = PBXGroup;
+			children = (
+				87B34D182066D8C100CB5CB9 /* FirstViewController.swift */,
+				87B34CE82066C80200CB5CB9 /* AppDelegate.swift */,
+				87B34CEE2066C80200CB5CB9 /* Main.storyboard */,
+				87B34CF12066C80200CB5CB9 /* Assets.xcassets */,
+				87B34CF32066C80200CB5CB9 /* LaunchScreen.storyboard */,
+				87B34CF62066C80200CB5CB9 /* Info.plist */,
+			);
+			path = Safetrek;
+			sourceTree = "<group>";
+		};
+		87B34CFE2066C80300CB5CB9 /* SafetrekTests */ = {
+			isa = PBXGroup;
+			children = (
+				87B34CFF2066C80300CB5CB9 /* SafetrekTests.swift */,
+				87B34D012066C80300CB5CB9 /* Info.plist */,
+			);
+			path = SafetrekTests;
+			sourceTree = "<group>";
+		};
+		87B34D092066C80300CB5CB9 /* SafetrekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87B34D0A2066C80300CB5CB9 /* SafetrekUITests.swift */,
+				87B34D0C2066C80300CB5CB9 /* Info.plist */,
+			);
+			path = SafetrekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B34CE42066C80200CB5CB9 /* Safetrek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B34D0F2066C80300CB5CB9 /* Build configuration list for PBXNativeTarget "Safetrek" */;
+			buildPhases = (
+				87B34CE12066C80200CB5CB9 /* Sources */,
+				87B34CE22066C80200CB5CB9 /* Frameworks */,
+				87B34CE32066C80200CB5CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Safetrek;
+			productName = Safetrek;
+			productReference = 87B34CE52066C80200CB5CB9 /* Safetrek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87B34CFA2066C80300CB5CB9 /* SafetrekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B34D122066C80300CB5CB9 /* Build configuration list for PBXNativeTarget "SafetrekTests" */;
+			buildPhases = (
+				87B34CF72066C80300CB5CB9 /* Sources */,
+				87B34CF82066C80300CB5CB9 /* Frameworks */,
+				87B34CF92066C80300CB5CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B34CFD2066C80300CB5CB9 /* PBXTargetDependency */,
+			);
+			name = SafetrekTests;
+			productName = SafetrekTests;
+			productReference = 87B34CFB2066C80300CB5CB9 /* SafetrekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87B34D052066C80300CB5CB9 /* SafetrekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B34D152066C80300CB5CB9 /* Build configuration list for PBXNativeTarget "SafetrekUITests" */;
+			buildPhases = (
+				87B34D022066C80300CB5CB9 /* Sources */,
+				87B34D032066C80300CB5CB9 /* Frameworks */,
+				87B34D042066C80300CB5CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B34D082066C80300CB5CB9 /* PBXTargetDependency */,
+			);
+			name = SafetrekUITests;
+			productName = SafetrekUITests;
+			productReference = 87B34D062066C80300CB5CB9 /* SafetrekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B34CDD2066C80200CB5CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Daniel Ju";
+				TargetAttributes = {
+					87B34CE42066C80200CB5CB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					87B34CFA2066C80300CB5CB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87B34CE42066C80200CB5CB9;
+					};
+					87B34D052066C80300CB5CB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87B34CE42066C80200CB5CB9;
+					};
+				};
+			};
+			buildConfigurationList = 87B34CE02066C80200CB5CB9 /* Build configuration list for PBXProject "Safetrek" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87B34CDC2066C80200CB5CB9;
+			productRefGroup = 87B34CE62066C80200CB5CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B34CE42066C80200CB5CB9 /* Safetrek */,
+				87B34CFA2066C80300CB5CB9 /* SafetrekTests */,
+				87B34D052066C80300CB5CB9 /* SafetrekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B34CE32066C80200CB5CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B34CF52066C80200CB5CB9 /* LaunchScreen.storyboard in Resources */,
+				87B34CF22066C80200CB5CB9 /* Assets.xcassets in Resources */,
+				87B34CF02066C80200CB5CB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B34CF92066C80300CB5CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B34D042066C80300CB5CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B34CE12066C80200CB5CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B34CE92066C80200CB5CB9 /* AppDelegate.swift in Sources */,
+				87B34D192066D8C100CB5CB9 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B34CF72066C80300CB5CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B34D002066C80300CB5CB9 /* SafetrekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B34D022066C80300CB5CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B34D0B2066C80300CB5CB9 /* SafetrekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87B34CFD2066C80300CB5CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87B34CE42066C80200CB5CB9 /* Safetrek */;
+			targetProxy = 87B34CFC2066C80300CB5CB9 /* PBXContainerItemProxy */;
+		};
+		87B34D082066C80300CB5CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87B34CE42066C80200CB5CB9 /* Safetrek */;
+			targetProxy = 87B34D072066C80300CB5CB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87B34CEE2066C80200CB5CB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B34CEF2066C80200CB5CB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87B34CF32066C80200CB5CB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B34CF42066C80200CB5CB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87B34D0D2066C80300CB5CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87B34D0E2066C80300CB5CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87B34D102066C80300CB5CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S368RRU437;
+				INFOPLIST_FILE = Safetrek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackuva.Safetrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87B34D112066C80300CB5CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S368RRU437;
+				INFOPLIST_FILE = Safetrek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackuva.Safetrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87B34D132066C80300CB5CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafetrekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackuva.SafetrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safetrek.app/Safetrek";
+			};
+			name = Debug;
+		};
+		87B34D142066C80300CB5CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafetrekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackuva.SafetrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safetrek.app/Safetrek";
+			};
+			name = Release;
+		};
+		87B34D162066C80300CB5CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafetrekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackuva.SafetrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Safetrek;
+			};
+			name = Debug;
+		};
+		87B34D172066C80300CB5CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafetrekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackuva.SafetrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Safetrek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B34CE02066C80200CB5CB9 /* Build configuration list for PBXProject "Safetrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B34D0D2066C80300CB5CB9 /* Debug */,
+				87B34D0E2066C80300CB5CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B34D0F2066C80300CB5CB9 /* Build configuration list for PBXNativeTarget "Safetrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B34D102066C80300CB5CB9 /* Debug */,
+				87B34D112066C80300CB5CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B34D122066C80300CB5CB9 /* Build configuration list for PBXNativeTarget "SafetrekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B34D132066C80300CB5CB9 /* Debug */,
+				87B34D142066C80300CB5CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B34D152066C80300CB5CB9 /* Build configuration list for PBXNativeTarget "SafetrekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B34D162066C80300CB5CB9 /* Debug */,
+				87B34D172066C80300CB5CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87B34CDD2066C80200CB5CB9 /* Project object */;
+}
