@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		877800D12066F3F300ECB7BD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 877800D02066F3F300ECB7BD /* Podfile */; };
 		87B34CE92066C80200CB5CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34CE82066C80200CB5CB9 /* AppDelegate.swift */; };
 		87B34CF02066C80200CB5CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B34CEE2066C80200CB5CB9 /* Main.storyboard */; };
 		87B34CF22066C80200CB5CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B34CF12066C80200CB5CB9 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		87B34D192066D8C100CB5CB9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34D182066D8C100CB5CB9 /* FirstViewController.swift */; };
 		87B34D1B2066E4D700CB5CB9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34D1A2066E4D700CB5CB9 /* SecondViewController.swift */; };
 		87B34D1D2066E78000CB5CB9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34D1C2066E78000CB5CB9 /* ThirdViewController.swift */; };
+		D43FF7C7DFA7141E03012590 /* Pods_Safetrek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89B0B31789E31C1BE53E72E /* Pods_Safetrek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120E92957EA709169E300A7C /* Pods-Safetrek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safetrek.release.xcconfig"; path = "Safetrek/Pods/Target Support Files/Pods-Safetrek/Pods-Safetrek.release.xcconfig"; sourceTree = "<group>"; };
+		3A867C964C08FD91301198DB /* Pods-Safetrek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safetrek.debug.xcconfig"; path = "Safetrek/Pods/Target Support Files/Pods-Safetrek/Pods-Safetrek.debug.xcconfig"; sourceTree = "<group>"; };
+		877800D02066F3F300ECB7BD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		87B34CE52066C80200CB5CB9 /* Safetrek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Safetrek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B34CE82066C80200CB5CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87B34CEF2066C80200CB5CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		87B34D182066D8C100CB5CB9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		87B34D1A2066E4D700CB5CB9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		87B34D1C2066E78000CB5CB9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E89B0B31789E31C1BE53E72E /* Pods_Safetrek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safetrek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43FF7C7DFA7141E03012590 /* Pods_Safetrek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +92,8 @@
 				87B34CFE2066C80300CB5CB9 /* SafetrekTests */,
 				87B34D092066C80300CB5CB9 /* SafetrekUITests */,
 				87B34CE62066C80200CB5CB9 /* Products */,
+				F519AD15A388633D724C3D2B /* Pods */,
+				A2D21AFCB3E9728F91FBAFFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +118,7 @@
 				87B34CF12066C80200CB5CB9 /* Assets.xcassets */,
 				87B34CF32066C80200CB5CB9 /* LaunchScreen.storyboard */,
 				87B34CF62066C80200CB5CB9 /* Info.plist */,
+				877800D02066F3F300ECB7BD /* Podfile */,
 			);
 			path = Safetrek;
 			sourceTree = "<group>";
@@ -131,6 +141,23 @@
 			path = SafetrekUITests;
 			sourceTree = "<group>";
 		};
+		A2D21AFCB3E9728F91FBAFFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E89B0B31789E31C1BE53E72E /* Pods_Safetrek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F519AD15A388633D724C3D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A867C964C08FD91301198DB /* Pods-Safetrek.debug.xcconfig */,
+				120E92957EA709169E300A7C /* Pods-Safetrek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87B34D0F2066C80300CB5CB9 /* Build configuration list for PBXNativeTarget "Safetrek" */;
 			buildPhases = (
+				BDB464BB358BA8DD5B6373B0 /* [CP] Check Pods Manifest.lock */,
 				87B34CE12066C80200CB5CB9 /* Sources */,
 				87B34CE22066C80200CB5CB9 /* Frameworks */,
 				87B34CE32066C80200CB5CB9 /* Resources */,
+				AD049CA862CDB849AD8BCB36 /* [CP] Embed Pods Frameworks */,
+				32A2A00B68CD2A515A77780D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +270,7 @@
 			files = (
 				87B34CF52066C80200CB5CB9 /* LaunchScreen.storyboard in Resources */,
 				87B34CF22066C80200CB5CB9 /* Assets.xcassets in Resources */,
+				877800D12066F3F300ECB7BD /* Podfile in Resources */,
 				87B34CF02066C80200CB5CB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +290,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A2A00B68CD2A515A77780D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Safetrek/Pods/Target Support Files/Pods-Safetrek/Pods-Safetrek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD049CA862CDB849AD8BCB36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Safetrek/Pods/Target Support Files/Pods-Safetrek/Pods-Safetrek-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Safetrek/Pods/Target Support Files/Pods-Safetrek/Pods-Safetrek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB464BB358BA8DD5B6373B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safetrek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87B34CE12066C80200CB5CB9 /* Sources */ = {
@@ -432,6 +517,7 @@
 		};
 		87B34D102066C80300CB5CB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A867C964C08FD91301198DB /* Pods-Safetrek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +533,7 @@
 		};
 		87B34D112066C80300CB5CB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120E92957EA709169E300A7C /* Pods-Safetrek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

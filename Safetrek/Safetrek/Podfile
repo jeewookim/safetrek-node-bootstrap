@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+project '../Safetrek.xcodeproj'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Safetrek' do
+    pod 'Alamofire', '~> 4.7'
+end

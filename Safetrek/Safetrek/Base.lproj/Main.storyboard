@@ -70,6 +70,24 @@
                     <view key="view" contentMode="scaleToFill" id="bjY-g6-2ck">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXy-hG-of5">
+                                <rect key="frame" x="118" y="268" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Connect to Safetrek"/>
+                                <connections>
+                                    <action selector="connect:" destination="6kY-ny-ttG" eventType="touchUpInside" id="OPf-NW-MkE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNr-Up-o4w">
+                                <rect key="frame" x="141" y="318" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Trigger Alarm"/>
+                                <connections>
+                                    <action selector="triggerAlarm:" destination="6kY-ny-ttG" eventType="touchUpInside" id="3uI-VV-6ri"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="uoc-xC-XRu"/>
                     </view>
@@ -77,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ear-NE-12v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2073" y="794"/>
+            <point key="canvasLocation" x="2072.8000000000002" y="793.8530734632684"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="DG9-hg-Jex">

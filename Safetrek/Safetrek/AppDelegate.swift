@@ -41,12 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-//    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-//        let urlComponents = URLComponents.init(url: url, resolvingAgainstBaseURL: false)
-//        let userInfo = UserDefaults.init()
-//        userInfo.set(urlComponents?.queryItems?[2].value, forKey: "REFRESH_TOKEN")
-//        userInfo.set(urlComponents?.queryItems?[0].value, forKey: "ACCESS_TOKEN")
-//        return true
-//    }
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        let urlComponents = URLComponents.init(url: url, resolvingAgainstBaseURL: false)
+        let userInfo = UserDefaults.init()
+        userInfo.set(urlComponents?.queryItems?[2].value, forKey: "REFRESH_TOKEN")
+        userInfo.set(urlComponents?.queryItems?[0].value, forKey: "ACCESS_TOKEN")
+        return true
+    }
 }
 
